@@ -16,17 +16,18 @@ body {
 .container {
   text-align: center;
   max-width: 800px;
-  height: 600px;
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
   margin-top: 50px;
   border-radius: 8px;
   background-color: #0D1017;
+  padding-bottom: 100px;
 }
 
 .clock {
   margin: 0 auto;
   font-size: 3.6em;
+  padding-bottom: 50px;
 }
 
 img {
@@ -47,7 +48,7 @@ img {
 
 .started {
   filter: saturate(0);
-  opacity: 0.5;
+  opacity: .3;
 }
 
 .iniciar {
@@ -63,7 +64,7 @@ img {
 }
 
 .paused {
-  animation: pause .9s infinite ease-in-out;
+  animation: pause .7s infinite ease-in-out;
 }
 
 @keyframes pause {
